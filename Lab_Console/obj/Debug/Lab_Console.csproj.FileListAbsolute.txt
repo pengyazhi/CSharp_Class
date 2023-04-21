@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\bin\Debug\Lab_Console.exe.config
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\bin\Debug\Lab_Console.exe
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\bin\Debug\Lab_Console.pdb
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\obj\Debug\Lab_Console.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\obj\Debug\Lab_Console.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\obj\Debug\Lab_Console.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\obj\Debug\Lab_Console.exe
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\obj\Debug\Lab_Console.pdb
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\bin\Debug\Lab_Form.exe
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\bin\Debug\Lab_Form.pdb
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\bin\Debug\Lab_Form.exe.config
+C:\Users\User\source\repos\Lab_Csharp\Lab_Console\obj\Debug\Lab_Console.csproj.CopyComplete
