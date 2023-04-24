@@ -52,10 +52,10 @@ namespace Lab_Form
     {
         public string Name { get; set; }
         public int Age { get; set; }
-        Empolyee(string txtEmployeeName, int txtEmployeeAge)
+        public Empolyee(string name, int age)
         {
-            Name = ""; 
-            Age = 0;
+            Name = name;
+            Age = age;
         }
         //public string Name;
         //public int Age;

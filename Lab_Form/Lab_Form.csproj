@@ -76,6 +76,12 @@
     <Compile Include="Frm_M18_enum.Designer.cs">
       <DependentUpon>Frm_M18_enum.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_M20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M20.Designer.cs">
+      <DependentUpon>Frm_M20.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_M19_struct.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M18_enum.resx">
       <DependentUpon>Frm_M18_enum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M20.resx">
+      <DependentUpon>Frm_M20.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M19_struct.resx">
       <DependentUpon>Frm_M19_struct.cs</DependentUpon>
