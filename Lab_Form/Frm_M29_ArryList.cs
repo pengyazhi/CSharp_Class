@@ -18,6 +18,7 @@ namespace Lab_Form
             InitializeComponent();
         }
         ArrayList lsPro = new ArrayList();
+        //List<Product> lsPro = new List<Product>();
         Product pro;
         private void btnAddProductList_Click(object sender, EventArgs e)
         {
@@ -25,42 +26,36 @@ namespace Lab_Form
             pro.Price = decimal.Parse(txtProductPrice.Text);
             lsPro.Add(pro);
 
-            rTxtBoxProductList.Text = string.Format("{0,10:w}{1,10:n}", "產品名稱", "產品價格")+"\n";
+            rTxtBoxProductList.Text = string.Format("{0,10:w}{1,10:n}", "產品名稱", "產品價格") + "\n";
             for (int i = 0; i < lsPro.Count; i++)
             {
-                //rTxtBoxProductList.Text += $"{((Product)lsPro[i]).Name}{((Product)lsPro[i]).Price}\n";
+                rTxtBoxProductList.Text += string.Format("{0,10:w}{1,10:n}", ((Product)lsPro[i]).Name, ((Product)lsPro[i]).Price) + "\n";
+            }
+
+            Dispaly();
+        }
+        public void Dispaly()
+        {
+            rTxtBoxProductList.Text = string.Format("{0,10:w}{1,10:n}", "產品名稱", "產品價格") + "\n";
+            for (int i = 0; i < lsPro.Count; i++)
+            {
                 rTxtBoxProductList.Text += string.Format("{0,10:w}{1,10:n}", ((Product)lsPro[i]).Name, ((Product)lsPro[i]).Price) + "\n";
             }
         }
 
         private void btnInsert_Click(object sender, EventArgs e)
         {
-            //Product pro;
+            
             pro.Name = txtProductName.Text;
             pro.Price = decimal.Parse(txtProductPrice.Text);
-            lsPro.Insert(1,  $"{pro.Name}{pro.Price}");
+            lsPro.Insert(1, pro);
             rTxtBoxProductList.Text = string.Format("{0,10:w}{1,10:n}", "產品名稱", "產品價格") + "\n";
-            foreach (object product in lsPro)
+            for (int i = 0; i < lsPro.Count; i++)
             {
-                rTxtBoxProductList.Text += product + "\n";
+                rTxtBoxProductList.Text += string.Format("{0,10:w}{1,10:n}", ((Product)lsPro[i]).Name, ((Product)lsPro[i]).Price) + "\n";
             }
-            //for (int i = 0; i < lsPro.Count; i++)
-            //{
-            //    rTxtBoxProductList.Text += string.Format("{0,10:w}{1,10:n}", lsPro[i].Name, lsPro[i].Price) + "\n";
-            //}
+            Dispaly();
 
-            //for (int i = 0; i < lsPro.Count; i++)
-            //{
-            //    //rTxtBoxProductList.Text += $"{((Product)lsPro[i]).Name}{((Product)lsPro[i]).Price}\n";
-
-            //}
-            //rTxtBoxProductList.Text += $"{string.Format("{0,10:w}{1,10:n}", pro.Name,pro.Price)}\n";
-            //rTxtBoxProductList.Text = string.Format("{0,10:w}{1,10:n}", "產品名稱", "產品價格") + "\n";
-            //for (int i = 0; i < lsPro.Count; i++)
-            //{
-            //    //rTxtBoxProductList.Text += $"{((Product)lsPro[i]).Name}{((Product)lsPro[i]).Price}\n";
-            //    rTxtBoxProductList.Text = $"{string.Format("{0,10:w}{1,10:n}", pro.Name, pro.Price)}\n";
-            //}
         }
     }
 }

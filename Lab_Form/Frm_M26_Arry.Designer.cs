@@ -80,7 +80,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnArry;
-        private System.Windows.Forms.Button btnArry2;
         private System.Windows.Forms.Button btnArrySecond;
         private System.Windows.Forms.Button button1;
     }
