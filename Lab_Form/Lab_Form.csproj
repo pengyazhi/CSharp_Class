@@ -88,6 +88,24 @@
     <Compile Include="Frm_M19_struct.Designer.cs">
       <DependentUpon>Frm_M19_struct.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_M26_Arry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M26_Arry.Designer.cs">
+      <DependentUpon>Frm_M26_Arry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M28_進階方法.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M28_進階方法.Designer.cs">
+      <DependentUpon>Frm_M28_進階方法.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M29_ArryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M29_ArryList.Designer.cs">
+      <DependentUpon>Frm_M29_ArryList.cs</DependentUpon>
+    </Compile>
     <Compile Include="PartialClass.cs" />
     <Compile Include="Utility.cs" />
     <Compile Include="Frm_M04.cs">
@@ -130,6 +148,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M19_struct.resx">
       <DependentUpon>Frm_M19_struct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M26_Arry.resx">
+      <DependentUpon>Frm_M26_Arry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M28_進階方法.resx">
+      <DependentUpon>Frm_M28_進階方法.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M29_ArryList.resx">
+      <DependentUpon>Frm_M29_ArryList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

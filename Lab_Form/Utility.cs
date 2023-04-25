@@ -61,4 +61,11 @@ namespace Lab_Form
         //public int Age;
         
     }
+    public struct Product
+    {
+        public string Name;
+        public decimal Price;
+    }
+
+
 }

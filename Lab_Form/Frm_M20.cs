@@ -78,5 +78,52 @@ namespace Lab_Form
                 txtScore.Focus();
             }
         }
+
+        private void btnWhile_Click(object sender, EventArgs e)
+        {
+            int i = 10;
+            string result = "";
+            //while (i < 10) 
+            //{
+            //    result += $"{i}\n";
+            //    i++;
+            //}
+            while (i < 10)
+            {
+                result += $"{++i}\n"; //先將i+1後再指派給result 
+                //result += $"{i++}\n"; //0~9 將i指派給result後+1
+                //i++;0~9 將i指派給result後+1
+                //++i;0~9 將i指派給result後+1
+            }
+            MessageBox.Show(result);
+        }
+
+        private void btnDo_Click(object sender, EventArgs e)
+        {
+            int i = 10;
+            string result = "";
+            do
+            {
+                result += $"{i++}\n"; //result = i , i++;
+                
+            }while (i < 10) ;
+            MessageBox.Show(result);
+        }
+
+        private void btnFor_Click(object sender, EventArgs e)
+        {
+            string result = "";
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    result += $"{i}\n";
+
+            //}
+            for (int i = 0, j = 50, x = 35; i + x < j; i += 5, x--)
+            {
+                result += $"i:{i},j:{j},x:{x}\n";
+
+            }
+            MessageBox.Show(result);
+        }
     }
 }
