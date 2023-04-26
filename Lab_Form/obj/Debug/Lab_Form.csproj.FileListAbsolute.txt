@@ -19,7 +19,6 @@ C:\Users\User\source\repos\Lab_Csharp\Lab_Form\obj\Debug\Lab_Form.Frm_M19_struct
 C:\Users\User\source\repos\Lab_Csharp\Lab_Form\obj\Debug\Lab_Form.Frm_M20.resources
 C:\Users\User\source\repos\Lab_Csharp\Lab_Form\obj\Debug\Lab_Form.Frm_M26_Arry.resources
 C:\Users\User\source\repos\Lab_Csharp\Lab_Form\obj\Debug\Lab_Form.Frm_M28_進階方法.resources
-C:\Users\User\source\repos\Lab_Csharp\Lab_Form\obj\Debug\Lab_Form.Frm_M29_ArryList.resources
 D:\yzyz8\OneDrive\桌面\CsharpClass_GitHub\CSharp_Class\Lab_Form\bin\Debug\Lab_Form.exe.config
 D:\yzyz8\OneDrive\桌面\CsharpClass_GitHub\CSharp_Class\Lab_Form\bin\Debug\Lab_Form.exe
 D:\yzyz8\OneDrive\桌面\CsharpClass_GitHub\CSharp_Class\Lab_Form\bin\Debug\Lab_Form.pdb
@@ -42,3 +41,7 @@ D:\yzyz8\OneDrive\桌面\CsharpClass_GitHub\CSharp_Class\Lab_Form\obj\Debug\Lab_
 D:\yzyz8\OneDrive\桌面\CsharpClass_GitHub\CSharp_Class\Lab_Form\obj\Debug\Lab_Form.csproj.CoreCompileInputs.cache
 D:\yzyz8\OneDrive\桌面\CsharpClass_GitHub\CSharp_Class\Lab_Form\obj\Debug\Lab_Form.exe
 D:\yzyz8\OneDrive\桌面\CsharpClass_GitHub\CSharp_Class\Lab_Form\obj\Debug\Lab_Form.pdb
+C:\Users\User\source\repos\Lab_Csharp\Lab_Form\obj\Debug\Lab_Form.Frm_M29_傳統集合ArryList.resources
+C:\Users\User\source\repos\Lab_Csharp\Lab_Form\obj\Debug\Lab_Form.Frm_M30_泛用集合List.resources
+C:\Users\User\source\repos\Lab_Csharp\Lab_Form\obj\Debug\Lab_Form.Frm_M32.resources
+C:\Users\User\source\repos\Lab_Csharp\Lab_Form\obj\Debug\Lab_Form.Frm_M34_StreamReader.resources

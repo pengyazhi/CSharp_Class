@@ -1,6 +1,6 @@
 ﻿namespace Lab_Form
 {
-    partial class Frm_M29_ArryList
+    partial class Frm_M29_傳統集合ArryList
     {
         /// <summary>
         /// Required designer variable.
@@ -107,6 +107,7 @@
             this.btnRemoveAt.TabIndex = 6;
             this.btnRemoveAt.Text = "Remove At";
             this.btnRemoveAt.UseVisualStyleBackColor = true;
+            this.btnRemoveAt.Click += new System.EventHandler(this.btnRemoveAt_Click);
             // 
             // btnClear
             // 
@@ -117,6 +118,7 @@
             this.btnClear.TabIndex = 7;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnAddDifferentType
             // 
@@ -137,7 +139,7 @@
             this.rTxtBoxProductList.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.rTxtBoxProductList.Size = new System.Drawing.Size(308, 259);
             this.rTxtBoxProductList.TabIndex = 9;
-            this.rTxtBoxProductList.Text = string.Format("{0,10:w}{1,10:n}", "產品名稱", "產品價格");
+            this.rTxtBoxProductList.Text = "      產品名稱      產品價格";
             // 
             // Frm_M29_ArryList
             // 

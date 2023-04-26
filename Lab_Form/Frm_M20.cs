@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 
 namespace Lab_Form
 {
@@ -118,12 +120,46 @@ namespace Lab_Form
             //    result += $"{i}\n";
 
             //}
-            for (int i = 0, j = 50, x = 35; i + x < j; i += 5, x--)
+            for (int i = 0, j = 50, x = 35;  ; i += 5, x--)
             {
+                if(!Check(i, j, x))
+                break;
                 result += $"i:{i},j:{j},x:{x}\n";
-
+                
             }
             MessageBox.Show(result);
+        }
+        bool Check(int i,int j,int x)
+        {
+            return i + x < j;
+        }
+
+        private void btnForeach_Click(object sender, EventArgs e)
+        {
+            //foreach (Control item in Controls)
+            //{
+            //    if (item.GetType() == typeof(Button) && item.Name== "btnForeach")
+            //    {
+            //        item.BackColor = Color.Teal;
+            //        item.ForeColor = Color.Pink;
+            //    }   
+            btnForeach.BackColor = Color.Teal;
+            btnForeach.ForeColor = Color.Pink;
+            //btnForeach.Top -= 10;
+            //btnForeach.Left -= 10;
+
+            if (btnForeach.Top < 20 || btnForeach.Left < 20)
+            {
+                btnForeach.Top += 10;
+                btnForeach.Left += 10;
+            }
+            else
+            {
+                btnForeach.Top -= 10;
+                btnForeach.Left -= 10;
+            }
+
+            //}
         }
     }
 }

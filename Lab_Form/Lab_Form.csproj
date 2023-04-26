@@ -100,11 +100,29 @@
     <Compile Include="Frm_M28_進階方法.Designer.cs">
       <DependentUpon>Frm_M28_進階方法.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_M29_ArryList.cs">
+    <Compile Include="Frm_M29_傳統集合ArryList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_M29_ArryList.Designer.cs">
-      <DependentUpon>Frm_M29_ArryList.cs</DependentUpon>
+    <Compile Include="Frm_M29_傳統集合ArryList.Designer.cs">
+      <DependentUpon>Frm_M29_傳統集合ArryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M30_泛用集合List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M30_泛用集合List.Designer.cs">
+      <DependentUpon>Frm_M30_泛用集合List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M32.Designer.cs">
+      <DependentUpon>Frm_M32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M34_StreamReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M34_StreamReader.Designer.cs">
+      <DependentUpon>Frm_M34_StreamReader.cs</DependentUpon>
     </Compile>
     <Compile Include="PartialClass.cs" />
     <Compile Include="Utility.cs" />
@@ -155,8 +173,17 @@
     <EmbeddedResource Include="Frm_M28_進階方法.resx">
       <DependentUpon>Frm_M28_進階方法.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_M29_ArryList.resx">
-      <DependentUpon>Frm_M29_ArryList.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_M29_傳統集合ArryList.resx">
+      <DependentUpon>Frm_M29_傳統集合ArryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M30_泛用集合List.resx">
+      <DependentUpon>Frm_M30_泛用集合List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M32.resx">
+      <DependentUpon>Frm_M32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M34_StreamReader.resx">
+      <DependentUpon>Frm_M34_StreamReader.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -36,6 +36,7 @@
             this.btnWhile = new System.Windows.Forms.Button();
             this.btnDo = new System.Windows.Forms.Button();
             this.btnFor = new System.Windows.Forms.Button();
+            this.btnForeach = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnReverse
@@ -114,11 +115,22 @@
             this.btnFor.UseVisualStyleBackColor = true;
             this.btnFor.Click += new System.EventHandler(this.btnFor_Click);
             // 
+            // btnForeach
+            // 
+            this.btnForeach.Location = new System.Drawing.Point(593, 247);
+            this.btnForeach.Name = "btnForeach";
+            this.btnForeach.Size = new System.Drawing.Size(136, 73);
+            this.btnForeach.TabIndex = 8;
+            this.btnForeach.Text = "Foreach";
+            this.btnForeach.UseVisualStyleBackColor = true;
+            this.btnForeach.Click += new System.EventHandler(this.btnForeach_Click);
+            // 
             // Frm_M20
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnForeach);
             this.Controls.Add(this.btnFor);
             this.Controls.Add(this.btnDo);
             this.Controls.Add(this.btnWhile);
@@ -144,5 +156,6 @@
         private System.Windows.Forms.Button btnWhile;
         private System.Windows.Forms.Button btnDo;
         private System.Windows.Forms.Button btnFor;
+        private System.Windows.Forms.Button btnForeach;
     }
 }
